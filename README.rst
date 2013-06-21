@@ -9,6 +9,20 @@ for:
 - the database password
 - the phymyadmin admin password
 
+Handling htpasswd stuff
+=======================
+
+Certain parts of the website will have a password protected section (proof.wakemakin.com subdomain). To
+properly add your own account (the most secure way to do it) you will need to find the .htpasswd-private 
+file in the virtual host directory (i.e. /var/www/vhost/proof.wakemakin.com/). When you have that you then
+need to do the following::
+  
+  sudo htpasswd .htpasswd-private <your new username>
+
+To delete a user from this (in case they go crazy or you need to change the password)::
+  
+  sudo htpasswd -D .htpasswd-private <the username>
+
 Ways to install
 ---------------
 
