@@ -1,0 +1,166 @@
+body {
+	background-image:url('../img/backgrounds/retro_bg001.gif');
+}
+
+#mainbody {
+	height: 310px;
+	width: 100%;
+	background-image:url('../img/backgrounds/centerbg_002.png');
+	background-repeat: x-axis;
+	padding-top: 25px;
+}
+#maincontent, #footercontent {
+	width: 960px;
+	margin: 0px auto;
+	float: none;
+	padding: 0px;
+}
+
+#footercontent {
+	padding-top: 10px;	
+	padding-bottom: 10px;
+}
+
+#footercontent > .span4 {
+	width: 290px;
+	margin: 0px 15px;
+}
+
+#footercontent > .span4 > p {
+	font-family: Georgia;
+}
+
+#footercontent > .span4 img {
+	width: 57px;
+	height: 64px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logo {
+	position: relative;	
+	bottom: -20px;
+	left: 350px;
+}
+
+#maincontent > .span4 {
+	width: 290px;
+	margin: 0px 15px;
+}
+
+.footerCenter {
+	width: 190px;
+	margin: 0px auto;	
+}
+
+.subSection {
+	position: relative;
+	width:299px;
+	height: 289px;
+}
+
+.subSectionText {
+	position: absolute;
+	top: 100px;
+	left: 30px;	
+	height: 150px;
+	width: 235px;
+	font-size: 10pt;
+}
+
+.subSectionText > p {
+	margin-bottom: 15px;
+	font-family: Georgia;
+}
+
+.subSectionText > p:first-child:first-letter { 
+	float: left; 
+	color: #a76c3c; 
+	font-size: 50px; 
+	line-height: 25px; 
+	padding-top: 4px; 
+	padding-right: 4px;
+	padding-left: 0px; 
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#comingSoon {
+	width: 576px; 
+	margin: 0px auto; 
+	padding-bottom: 15px;
+}
+
+#comingSoon > form {
+	width: 576px;	
+	background-color: #7f7866;	
+	padding: 3px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+	border: 1px solid #d3cdbe;	
+}
+
+#comingSoon > form > input {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#comingSoon > form > input[type="text"]{
+	width: 413px;
+	height: 28px;
+	height: 30px;
+	background-color: #f2f1ed;
+	border: 1px solid #d3cdbe;
+	padding-left: 5px;
+	font-family: Georgia;
+}
+#comingSoon > form > input[type="submit"]{
+	background:transparent
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;	
+	float: none;
+	width: 960px;
+}
+
+.centerimg {
+	
+	margin-left: auto;
+	margin-right: auto;	
+	}
+
+.centertext {
+	text-align: center;	
+}
+
+.someText {
+	margin: 0 0 20px -68px;
+}
+
+.hero-unit {
+  padding: 0px;
+  background-color: transparent;
+  width: 960px;
+  height: 193px;
+  background-image:url('../img/backgrounds/navbg_001.png');
+  background-position: 0px -30px;
+  margin: 0px auto 10px auto;
+  background-repeat: none;
+/*
+  margin-bottom: 30px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+*/
+}
+
+.pp-question {
+	font-weight: bold;
+}
