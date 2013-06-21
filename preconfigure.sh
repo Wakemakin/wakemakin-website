@@ -9,7 +9,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 apt-get update
-apt-get install -y apache2 mysql-server phpmyadmin
+apt-get install -y apache2 mysql-server phpmyadmin elinks
 mkdir -vp /var/www/vhost 
 # Handle apache configuration
 mkdir -vp /tmp/conf/apache2
@@ -52,3 +52,4 @@ chown -R www-data:www-data /var/www/vhost/wakemakin.com/backups
 chown -R www-data:www-data /var/www/vhost/wakemakin.com/cgi-bin
 chown -R www-data:www-data /var/www/vhost/wakemakin.com/logs
 /etc/init.d/apache2 restart
+elinks http://localhost/
